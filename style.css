@@ -1,0 +1,149 @@
+*/{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+/* *Header Start */
+
+header{
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: rgba(111, 106, 247, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: fixed;
+}
+figure img{
+    width: 164px;
+    height: 37px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.nav-list li{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.nav-list li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover {
+    background-color: #e6d8d8; 
+    border-radius: 5px;
+  }
+
+  .moreclass{
+    display: flex;
+    gap: 5px;
+  }
+
+  .fa-caret-down{
+    color: white;
+  }
+
+  .search{
+    display: flex;
+  }
+  
+.search-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 20px; 
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 2px solid #bbaeae;
+    border-radius: 31px;
+    width: 276px;
+    height: 16px;
+    margin-top: 1rem;
+    margin-left: 10rem;
+  }
+
+  input::placeholder{
+    color:  rgba(173, 173, 173, 1);
+    opacity: 1;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  .fa-magnifying-glass{
+    color: rgba(173, 173, 173, 1);
+    margin-top: 1.7rem;
+    margin-left: -2.5rem;
+  }
+
+  .hamburger {
+    display: none; 
+    flex-direction: column; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center;
+    margin-left: 11rem;
+}
+
+  .hamburger span {
+    height: 5px; 
+    border-radius: 5px;
+    width: 35px; 
+    background-color: white; 
+    margin: 4px; 
+    transition: all 0.3s ease; 
+  }
+  .hamburger-checkbox:checked + .hamburger + .nav-list {
+    display: flex; 
+  }
+
+  /* *Header End */
+
+
+
+  /* *Banner Start */
+
+  .banner-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+  }
+
+  .banner-img{
+    width: 440px;
+    height: 500px;
+
+  }
+
+  .text-plate{
+    width: 400px;
+    height: 500px;
+    margin-left: 10rem;
+    background-color: rgba(173, 173, 173, 1);
+  }
+
+  .text-plate::placeholder{
+    color: white;
+  }
+
+  /* *Banner End */
