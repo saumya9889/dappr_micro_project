@@ -444,6 +444,10 @@ input::placeholder {
   padding-top: 1rem;
 }
 
+.details-left .left-side:hover{
+  background: #5f56f5;
+}
+
 .details-content-wrapper .details-right {
   background: rgba(255, 255, 255, 1);
   font-family: 'Courier New', Courier, monospace;
